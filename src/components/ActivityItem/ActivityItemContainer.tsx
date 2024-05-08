@@ -77,7 +77,7 @@ const ActivityItemContainer = (props: Props) => {
       setActivityItemValue(tempItem);
       setItemData(tempItem);
     },
-    [activityItemValue]
+    []
   );
 
   const handleDialogClose = (ref: MutableRef<ojDialog>, type: string) => {
